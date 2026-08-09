@@ -1,0 +1,166 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+.container { width: 100%; max-width: 480px; text-align: center; }
+.lang-switch {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+.lang-switch a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+}
+.lang-switch a.active {
+    color: #f8fafc;
+    text-decoration: underline;
+}
+.profile-image { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 12px; outline: 3px solid #475569; outline-offset: 2px; }
+h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; line-height: 1.1; }
+.subtitle {
+    font-size: 0.95rem;
+    color: #94a3b8;
+    margin-bottom: 36px;
+}
+.section-title { font-size: 0.8rem; letter-spacing: 0.05em; color: #f8fafc; margin: 32px 0 4px; text-align: left; font-weight: 700; }
+.affiliate-note {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #94a3b8;
+    margin: 2px 0 16px;
+    text-align: left;
+}
+.cooperation-contact {
+    display: contents;
+}
+.cooperation-label {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #94a3b8;
+}
+.cooperation-email {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+.cooperation-email:hover {
+    text-decoration: underline;
+}
+#affiliate-links {
+    margin-top: 8px;
+}
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #334155;
+}
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #1e293b;
+    color: #f8fafc;
+    text-decoration: none;
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    width: 100%;
+}
+.social-links .link-card {
+    flex: 1 1 calc(33.333% - 7px);
+    min-width: 0;
+}
+.link-card:hover { background-color: #334155; }
+.link-card i { font-size: 1rem; }
+.affiliate-item {
+    margin-top: 12px;
+    padding: 14px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    background-color: rgba(30, 41, 59, 0.55);
+}
+.affiliate-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.affiliate-title strong {
+    color: #f8fafc;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+.affiliate-title span {
+    color: #94a3b8;
+    font-size: 0.875rem;
+}
+.affiliate-code {
+    display: none;
+}
+.affiliate-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.affiliate-copy-label {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    text-align: left;
+    margin-bottom: -4px;
+}
+.affiliate-copy {
+    border: 1px solid #475569;
+    cursor: pointer;
+    font: inherit;
+    background-color: #1e293b;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 92px;
+    padding: 10px 12px;
+    text-align: center;
+    white-space: nowrap;
+    appearance: none;
+    line-height: 1.2;
+    color: #f8fafc;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+.affiliate-copy:hover {
+    background-color: #334155;
+}
+.affiliate-copy-code {
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.affiliate-code-text {
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+}
+footer { margin-top: 24px; padding-top: 20px; border-top: 1px solid #334155; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px; }
+.footer-separator { color: #94a3b8; font-size: 0.875rem; }
+.legal-link { color: #94a3b8; text-decoration: none; font-size: 0.875rem; }
+.legal-link:hover { color: #f8fafc; text-decoration: underline; }
