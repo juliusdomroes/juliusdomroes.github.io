@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .container { width: 100%; max-width: 480px; text-align: center; }
+        .profile-img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; }
+        h1 { font-size: 1.25rem; font-weight: 600; margin-bottom: 24px; }
+        .section-title { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin: 24px 0 12px; text-align: left; }
+        .link-card {
+            display: block;
+            background-color: #1e293b;
+            color: #f8fafc;
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+        .link-card:hover { background-color: #334155; }
+        .affiliate-note { font-size: 0.75rem; color: #64748b; margin-top: 4px; text-align: left; }
+        footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #334155; }
+        .legal-link { color: #94a3b8; text-decoration: none; font-size: 0.875rem; }
+        .legal-link:hover { color: #f8fafc; text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="profile.jpg" alt="Profilbild" class="profile-img">
+    <h1>Kanal-Name / Name</h1>
+
+    <div class="section-title">Social Media</div>
+    <a href="https://youtube.com/..." class="link-card" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://instagram.com/..." class="link-card" target="_blank" rel="noopener">Instagram</a>
+
+    <div class="section-title">Empfehlungen</div>
+    <a href="https://..." class="link-card" target="_blank" rel="sponsored">Kamera-Equipment*</a>
+    <p class="affiliate-note">*Affiliate-Links</p>
+
+    <footer>
+        <a href="impressum.html" class="legal-link">Legal Notice / Impressum</a>
+    </footer>
+</div>
+
+</body>
+</html>
