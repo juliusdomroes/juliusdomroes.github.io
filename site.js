@@ -72,8 +72,20 @@
 
             const codeValue = document.createElement('span');
             codeValue.className = 'affiliate-copy-code';
-            codeValue.style.fontSize = '0.8rem';
-            codeValue.textContent = item.copyValue || 'JULIUS5';
+            const code = item.copyValue || 'JULIUS5';
+
+            function renderCopyLabel() {
+                codeValue.innerHTML = '';
+                const icon = document.createElement('i');
+                icon.className = 'fa-regular fa-clipboard';
+                icon.style.marginRight = '6px';
+                codeValue.appendChild(icon);
+                const codeSpan = document.createElement('code');
+                codeSpan.className = 'affiliate-code-text';
+                codeSpan.textContent = code;
+                codeValue.appendChild(codeSpan);
+            }
+            renderCopyLabel();
             copyButton.appendChild(codeValue);
 
             copyButton.addEventListener('click', function () {
@@ -83,12 +95,12 @@
                 }
 
                 navigator.clipboard.writeText(value).then(function () {
-                    codeValue.textContent = 'Copied';
+                    codeValue.textContent = lang === 'de' ? 'Kopiert!' : 'Copied!';
                     window.setTimeout(function () {
-                        codeValue.textContent = item.copyValue || 'JULIUS5';
+                        renderCopyLabel();
                     }, 1500);
                 }).catch(function () {
-                    codeValue.textContent = 'Copy failed';
+                    codeValue.textContent = lang === 'de' ? 'Fehler' : 'Failed';
                 });
             });
 

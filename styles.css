@@ -25,14 +25,14 @@ body {
     color: #f8fafc;
     text-decoration: underline;
 }
-.profile-image { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 12px; }
+.profile-image { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 12px; outline: 3px solid #475569; outline-offset: 2px; }
 h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; line-height: 1.1; }
 .subtitle {
     font-size: 0.95rem;
     color: #94a3b8;
     margin-bottom: 36px;
 }
-.section-title { font-size: 0.95rem; letter-spacing: 0.05em; color: #f8fafc; margin: 32px 0 12px; text-align: left; font-weight: 700; }
+.section-title { font-size: 0.8rem; letter-spacing: 0.05em; color: #f8fafc; margin: 32px 0 4px; text-align: left; font-weight: 700; }
 .affiliate-note {
     font-size: 0.8rem;
     line-height: 1.5;
@@ -41,17 +41,12 @@ h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; line-height: 1.1; 
     text-align: left;
 }
 .cooperation-contact {
-    margin: 0 0 10px;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    text-align: center;
+    display: contents;
 }
 .cooperation-label {
-    font-size: 0.75rem;
-    font-weight: 600;
+    font-size: 0.875rem;
+    font-weight: 400;
     color: #94a3b8;
-    margin: 0 0 2px;
 }
 .cooperation-email {
     color: #94a3b8;
@@ -109,12 +104,12 @@ h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; line-height: 1.1; 
 }
 .affiliate-title strong {
     color: #f8fafc;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     font-weight: 700;
 }
 .affiliate-title span {
     color: #94a3b8;
-    font-size: 0.95rem;
+    font-size: 0.875rem;
 }
 .affiliate-code {
     display: none;
@@ -124,11 +119,17 @@ h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; line-height: 1.1; 
     flex-direction: column;
     gap: 8px;
 }
+.affiliate-copy-label {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    text-align: left;
+    margin-bottom: -4px;
+}
 .affiliate-copy {
-    border: 1px solid #38bdf8;
+    border: 1px solid #475569;
     cursor: pointer;
     font: inherit;
-    background-color: #0f172a;
+    background-color: #1e293b;
     font-weight: 500;
     display: inline-flex;
     align-items: center;
@@ -140,14 +141,26 @@ h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; line-height: 1.1; 
     white-space: nowrap;
     appearance: none;
     line-height: 1.2;
+    color: #f8fafc;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+.affiliate-copy:hover {
+    background-color: #334155;
 }
 .affiliate-copy-code {
-    font-weight: 700;
-    font-size: 0.8rem;
+    font-weight: 500;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: 4px;
 }
-footer { margin-top: 24px; padding-top: 20px; border-top: 1px solid #334155; }
+.affiliate-code-text {
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+}
+footer { margin-top: 24px; padding-top: 20px; border-top: 1px solid #334155; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px; }
+.footer-separator { color: #94a3b8; font-size: 0.875rem; }
 .legal-link { color: #94a3b8; text-decoration: none; font-size: 0.875rem; }
 .legal-link:hover { color: #f8fafc; text-decoration: underline; }

@@ -10,7 +10,6 @@ window.siteLinks = {
       description: { de: '5% Rabatt auf S-All Carbon Ultra H2', en: '5% off the S-All Carbon Ultra H2' },
       url: 'https://superteamwheels.com/discount/JULIUS5?ref=JULIUS',
       ctaLabel: { de: 'Zum Angebot (Werbung)', en: 'Shop now (Ad)' },
-      copyLabel: { de: 'Code kopieren', en: 'Copy code' },
       copyValue: 'JULIUS5'
     },
     {
@@ -18,7 +17,6 @@ window.siteLinks = {
       description: { de: '5% Rabatt auf die T Series (Road)', en: '5% off the T Series for Road' },
       url: 'https://10plus.cool/discount/JULIUS5?ref=JULIUS',
       ctaLabel: { de: 'Zum Angebot (Werbung)', en: 'Shop now (Ad)' },
-      copyLabel: { de: 'Code kopieren', en: 'Copy code' },
       copyValue: 'JULIUS5',
       extraActions: [
         {
