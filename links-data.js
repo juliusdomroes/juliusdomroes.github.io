@@ -6,15 +6,22 @@ window.siteLinks = {
   ],
   affiliates: [
     {
+      title: { de: 'Nepest Wheels', en: 'Nepest Wheels' },
+      description: { de: '8% Rabatt auf alle Laufradsätze', en: '8% off all wheelsets' },
+      url: 'https://www.nepestsports.com/?ref=JULIUS',
+      ctaLabel: { de: 'Zum Angebot (Werbung)', en: 'Shop now (Ad)' },
+      copyValue: 'JULIUS8'
+    },
+    {
       title: { de: 'Superteam Wheels', en: 'Superteam Wheels' },
-      description: { de: '5% Rabatt auf S-All Carbon Ultra H2', en: '5% off the S-All Carbon Ultra H2' },
+      description: { de: '5% Rabatt auf die S-All Carbon Ultra H2', en: '5% off the S-All Carbon Ultra H2' },
       url: 'https://superteamwheels.com/discount/JULIUS5?ref=JULIUS',
       ctaLabel: { de: 'Zum Angebot (Werbung)', en: 'Shop now (Ad)' },
       copyValue: 'JULIUS5'
     },
     {
       title: { de: '10plus Wheels', en: '10plus Wheels' },
-      description: { de: '5% Rabatt auf die T Series (Road)', en: '5% off the T Series for Road' },
+      description: { de: '5% Rabatt auf alle Laufradsätze', en: '5% off all wheelsets' },
       url: 'https://10plus.cool/discount/JULIUS5?ref=JULIUS',
       ctaLabel: { de: 'Zum Angebot (Werbung)', en: 'Shop now (Ad)' },
       copyValue: 'JULIUS5',
