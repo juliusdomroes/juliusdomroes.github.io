@@ -13,6 +13,13 @@ window.siteLinks = {
       copyValue: 'JULIUS'
     },
     {
+      title: { de: 'Cycplus Fahrradzubehör', en: 'Cycplus Accessories' },
+      description: { de: '5% Rabatt auf alles', en: '5% off everything' },
+      url: 'https://www.cycplus.com/?ref=Julius',
+      ctaLabel: { de: 'Zum Angebot (Werbung)', en: 'Shop now (Ad)' },
+      copyValue: 'JULIUS'
+    },
+    {
       title: { de: 'Nepest Laufräder', en: 'Nepest Wheels' },
       description: { de: '8% Rabatt auf alle Laufradsätze', en: '8% off all wheelsets' },
       url: 'https://www.nepestsports.com/?ref=JULIUS',
