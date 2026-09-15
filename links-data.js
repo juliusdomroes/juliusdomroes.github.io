@@ -22,7 +22,7 @@ window.siteLinks = {
     {
       title: { de: 'Nepest Laufräder', en: 'Nepest Wheels' },
       description: { de: '8% Rabatt auf alle Laufradsätze', en: '8% off all wheelsets' },
-      url: 'https://www.nepestsports.com/?ref=JULIUS',
+      url: 'https://www.nepestsports.com/discount/JULIUS8?ref=JULIUS',
       ctaLabel: { de: 'Zum Angebot (Werbung)', en: 'Shop now (Ad)' },
       copyValue: 'JULIUS8'
     },
