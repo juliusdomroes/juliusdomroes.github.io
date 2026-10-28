@@ -42,7 +42,7 @@ window.siteLinks = {
       extraActions: [
         {
           label: { de: 'Auf AliExpress kaufen (Werbung)', en: 'Shop on AliExpress (Ad)' },
-          url: 'https://s.click.aliexpress.com/e/_c3oDWl2T'
+          url: 'https://s.click.aliexpress.com/e/_c3wRpPeB'
         }
       ]
     }
